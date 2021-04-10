@@ -50,14 +50,12 @@ a:hover {
   color: #0099dd;
   text-decoration: none; /* No underlining */
   padding-bottom: 1px;
-	border-bottom: 1px solid #0099dd;
 }
 
 a:focus {
   color: #0099dd;
   text-decoration: none; /* No underlining */
   padding-bottom: 1px;
-	border-bottom: 1px solid #0099dd;
 }
 
 a:active { /* selected link */
@@ -69,7 +67,6 @@ a:active { /* selected link */
   padding: 12px 28px;
   background-color: #382457;
   color: #ffffff;
-  border: 3px solid #382457;
   font-family: 'Montserrat', sans-serif;
   border-radius: 4px;
   text-decoration: none;
@@ -95,7 +92,7 @@ a:active { /* selected link */
   top: 0;
   height: 490%;
   width: 140%;
-  background: #78c7d2;
+  background: #2CDDDD;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
@@ -103,9 +100,8 @@ a:active { /* selected link */
 }
 
 .button:hover {
-  background-color: #ffffff;
-  border: 3px solid #382457;
-  color: #382457;
+  background-color: #382457;
+  color: #ffffff;
   padding-bottom: 12px;
 }
 
@@ -119,8 +115,25 @@ a:active { /* selected link */
   /* Reduces the opacity of the button to 80% */
 }
 
+.button.resume {
+  background-color: #967DBC;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button.resume:hover {
+  background-color: #967DBC;
+  color: #ffffff;
+  padding-bottom: 12px;
+}
+
+.button.resume:active {
+  background-color: #967DBC;
+  color: #ffffff;
+  padding-bottom: 12px;
+}
+
 .button.contact {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   padding: 12px 28px;
   background-color: transparent;
   color: #382457;
@@ -130,33 +143,11 @@ a:active { /* selected link */
 }
 
 .button.contact:hover {
-  background-color: #382457;
-  color: #ffffff;
+  background-color: transparent;
+  color: #382457;
 }
 
 .button.contact:active {
-  background-color: #242323;
-  color: #ffffff;
-}
-
-.button.resume {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  height: auto;
-  padding: 12px 28px;
-  background-color: #2CDDDD;
-  color: #ffffff;
-  border: 3px solid #2CDDDD;
-  text-transform: uppercase;
-  border-bottom: 2px solid #21a6a6;
-  cursor: pointer;
-}
-
-.button.resume:hover {
-  background-color: #ffffff;
-  color: #2CDDDD;
-}
-
-.button.resume:active {
-  background-color: #ffffff;
-  color: #2CDDDD;
+  background-color: transparent;
+  color: #382457;
 }
