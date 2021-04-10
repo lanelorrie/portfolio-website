@@ -65,25 +65,53 @@ a:active { /* selected link */
 }
 
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   height: auto;
   padding: 12px 28px;
   background-color: #382457;
   color: #ffffff;
   border: 3px solid #382457;
-  font-family: 'Bebas Neue', cursive;
-  border-bottom: 2px solid #26183b;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 4px;
   text-decoration: none;
   font-size: 24px;
   margin-top: 32px;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  width: 250px;
+}
+
+.button span {
+  position: relative;
+  z-index: 1;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
 .button:hover {
   background-color: #ffffff;
   border: 3px solid #382457;
   color: #382457;
+  padding-bottom: 12px;
+}
+
+.button:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
 .button:active {
