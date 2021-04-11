@@ -5,6 +5,10 @@ Secondary Color (Aquamarine): #2CDDDD;
 Font Color (Dark Black): #242323;
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
@@ -19,21 +23,21 @@ h1, h2, h3, h4 {
   line-height: 1.4;
 }
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 1.17em;
+  font-size: 1.75em;
   font-weight: 400;
 }
 h4 {
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 400;
 }
 
@@ -41,9 +45,79 @@ img {
   width: 100%;
 }
 
+/* HOMEPAGE */
+.logo {
+  max-width: 250px;
+}
+
+main {
+  padding-top: 334px;
+}
+
+header {
+  background: linear-gradient(to right, #e7ffff, #CBFFFF);
+  text-align: center;
+  padding: 10px 0;
+  overflow: hidden;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  -webkit-box-shadow: 2px 3px 4px 0px rgba(101, 120, 120, 0.3);
+  -moz-box-shadow:    2px 3px 4px 0px rgba(101, 120, 120, 0.3);
+  box-shadow:         2px 3px 4px 0px rgba(101, 120, 120, 0.3);
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style: none;
+  padding: 0;
+  maring: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li > a {
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  width: 100%;
+}
+
+nav > ul > li > a:hover {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0099dd;
+}
+
+nav > ul > li > a:focus {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0099dd;
+}
+
+nav > ul > li > a:active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #242323;
+}
+
 a {
   color: #382457;
   text-decoration: none; /* No underlining */
+  font-family: 'Montserrat', sans-serif;
 }
 
 a:hover {
@@ -53,13 +127,20 @@ a:hover {
 }
 
 a:focus {
-  color: #0099dd;
   text-decoration: none; /* No underlining */
   padding-bottom: 1px;
+  color: #0099dd;
 }
 
 a:active { /* selected link */
-  color: #1b102b;
+  color: #242323;
+}
+
+footer {
+  padding: 10px 0;
+  margin: 0 auto;
+  background: linear-gradient(to right, #e7ffff, #CBFFFF);
+  width: auto;
 }
 
 .button {
@@ -70,14 +151,14 @@ a:active { /* selected link */
   font-family: 'Montserrat', sans-serif;
   border-radius: 4px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 16px;
   margin-top: 32px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
   display: block;
   text-align: center;
-  width: 250px;
+  width: 150px;
 }
 
 .button span {
@@ -90,8 +171,8 @@ a:active { /* selected link */
   position: absolute;
   left: 0;
   top: 0;
-  height: 490%;
-  width: 140%;
+  height: 300%;
+  width: 150%;
   background: #2CDDDD;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
@@ -138,7 +219,6 @@ a:active { /* selected link */
   background-color: transparent;
   color: #382457;
   border: 3px solid #382457;
-  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -150,4 +230,32 @@ a:active { /* selected link */
 .button.contact:active {
   background-color: transparent;
   color: #382457;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #242323; }
+
+#hero h3 {
+  text-align: center; /* Centers text */
+}
+
+#hero p {
+  text-align: center;
+  font-size: 12pt;
+}
+
+#hero {
+  background-color: #CBFFFF;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
