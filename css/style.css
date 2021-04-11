@@ -51,7 +51,7 @@ img {
 }
 
 main {
-  padding-top: 334px;
+  padding-top: 302px;
 }
 
 header {
@@ -75,7 +75,7 @@ nav {
 nav > ul {
   list-style: none;
   padding: 0;
-  maring: 0;
+  margin: 0;
 }
 
 nav > ul > li {
@@ -141,6 +141,49 @@ footer {
   margin: 0 auto;
   background: linear-gradient(to right, #e7ffff, #CBFFFF);
   width: auto;
+  text-align: center;
+}
+
+div > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+div > ul > li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
+
+
+div > ul > li > a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+div > ul > li > a:hover {
+  padding: 0 15px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+div > ul > li > a:focus {
+  padding: 0 15px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+div > ul > li > a:active {
+  padding: 0 15px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
 }
 
 .button {
@@ -219,6 +262,7 @@ footer {
   background-color: transparent;
   color: #382457;
   border: 3px solid #382457;
+  margin: auto;
   cursor: pointer;
 }
 
@@ -254,8 +298,17 @@ footer {
 }
 
 #hero {
-  background-color: #CBFFFF;
+  background-color: #e7ffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 11pt;
 }
