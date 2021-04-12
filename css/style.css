@@ -365,6 +365,23 @@ div > ul > li > a:active {
   float: right;
 }
 
+#jot h4 {
+  text-align: left;
+  color: #2C698D;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0.1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#jot h4 > img {
+  display: inline;
+  margin: 0 2vw 0 0;
+  max-height: 0.8em;
+  max-width: 0.8em;
+    }
+
 .nospace {
    font-size: 0;
 }
