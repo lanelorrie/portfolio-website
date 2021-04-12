@@ -312,3 +312,41 @@ div > ul > li > a:active {
   text-align: center;
   font-size: 11pt;
 }
+
+#pachira {
+  background-color: #ffffff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#pachira h2 {
+  text-align: center;
+}
+
+#pachira h3 {
+  text-align: center;
+}
+
+#pachira .container .isometric {
+  padding: 0;
+  float: right;
+}
+
+.nospace {
+   font-size: 0;
+}
+
+.nomarker {
+  color: #008f7a;
+}
+
+.nomarker span {
+  color: #242323;
+}
+
+ol ::marker {
+  font-size: 100%;
+  color: #008f7a;
+  font-family: "Montserrat", cursive, sans-serif;
+}
