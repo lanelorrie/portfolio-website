@@ -255,21 +255,28 @@ div > ul > li > a:active {
 }
 
 .button.resume {
+  padding: 12px 28px;
   background-color: #967DBC;
   color: #ffffff;
   text-transform: uppercase;
+  margin: auto;
+  cursor: pointer;
 }
 
 .button.resume:hover {
+  padding: 12px 28px;
   background-color: #967DBC;
   color: #ffffff;
-  padding-bottom: 12px;
+  margin: auto;
+  cursor: pointer;
 }
 
 .button.resume:active {
+  padding: 12px 28px;
   background-color: #967DBC;
   color: #ffffff;
-  padding-bottom: 12px;
+  margin: auto;
+  cursor: pointer;
 }
 
 .button.contact {
@@ -466,6 +473,21 @@ div > ul > li > a:active {
   margin-block-end: 0.1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+#about h2 {
+  text-align: center;
+  color: #382457;
+}
+
+#story h2 {
+  text-align: center;
+  color: #382457;
+}
+
+#skills h2 {
+  text-align: center;
+  color: #382457;
 }
 
 .filler {
