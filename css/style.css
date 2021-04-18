@@ -308,6 +308,12 @@ div > ul > li > a:active {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .float {
   float: right;
 }
@@ -478,6 +484,8 @@ div > ul > li > a:active {
 #about h2 {
   text-align: center;
   color: #382457;
+  margin-top: 40px;
+
 }
 
 #story h2 {
@@ -488,6 +496,7 @@ div > ul > li > a:active {
 #skills h2 {
   text-align: center;
   color: #382457;
+  margin-top: 40px;
 }
 
 .filler {
@@ -546,4 +555,279 @@ th {
 
 td {
   color: #242323;
+}
+
+li.skills:not(:last-child) {
+ margin-bottom: 10px;
+}
+
+li.tools:not(:last-child) {
+ margin-bottom: 10px;
+}
+
+li.tools {
+  display: list-item;
+}
+
+.self-img img {
+  width: 100%;
+}
+
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 40px;
+  }
+
+  .logo {
+    max-width: 90px;
+  }
+
+  main {
+    padding-top: 110px;
+  }
+
+  body {
+    font-size: 18px; /* Sets the font size to 18px */
+  }
+
+  #hero h3 {
+    text-align: center; /* Centers text */
+  }
+
+  #hero h4 {
+    text-align: center; /* Centers text */
+  }
+
+  #hero p {
+    text-align: center;
+  }
+
+  #hero span {
+  display: block;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+  #story img {
+  width: 50%;
+  padding: 0px 10px;
+  float: left;
+}
+
+  #story h2 {
+  margin-top: 50px;
+}
+
+.self-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 40px;
+  float: left;
+}
+
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 40px;
+  }
+
+  .logo {
+    max-width: 90px;
+  }
+
+  main {
+    padding-top: 110px;
+  }
+
+  body {
+    font-size: 18px; /* Sets the font size to 18px */
+  }
+
+  #hero h3 {
+    text-align: center; /* Centers text */
+  }
+
+  #hero h4 {
+    text-align: center; /* Centers text */
+  }
+
+  #hero p {
+    text-align: center;
+  }
+
+  #hero span {
+  display: block;
+}
+
+  .col-lg-7 {
+    width: 60%;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+  #story img {
+  width: 50%;
+  padding: 0px 20px;
+  float: left;
+}
+
+  #story h2 {
+    margin-top: 0px;
+}
+
+  #story h2 {
+    margin-top: 30px;
+}
+
+  #skills h2 {
+  margin-top: 200px;
+}
+
+.self-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 40px;
+  float: left;
+}
+
+}
+
+
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 40px;
+  }
+
+  .logo {
+    max-width: 90px;
+  }
+
+  main {
+    padding-top: 110px;
+  }
+
+  body {
+    font-size: 18px; /* Sets the font size to 18px */
+  }
+
+  #hero h3 {
+    text-align: center; /* Centers text */
+  }
+
+  #hero h4 {
+    text-align: center; /* Centers text */
+  }
+
+  #hero p {
+    text-align: center;
+  }
+
+  #hero span {
+  display: block;
+}
+
+  .col-lg-7 {
+    width: 60%;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+  #story img {
+  width: 50%;
+  padding: 0px 20px;
+  float: left;
+}
+
+  #story h2 {
+    margin-top: 0px;
+}
+
+  #story h2 {
+    margin-top: 30px;
+}
+
+  #skills h2 {
+  margin-top: 200px;
+}
+
+.self-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 40px;
+  float: left;
+}
+
 }
