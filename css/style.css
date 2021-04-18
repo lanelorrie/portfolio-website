@@ -318,16 +318,18 @@ div > ul > li > a:active {
   float: right;
 }
 
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #242323; }
+#work .row { padding-bottom: 25px;}
 
 #hero h3 {
   text-align: left; /* Centers text */
   color: #382457;
+  font-size: 3em;
 }
 
 #hero h4 {
   text-align: left; /* Centers text */
   color: #242323;
+  font-size: 1.75em;
 }
 
 #hero p {
@@ -481,11 +483,16 @@ div > ul > li > a:active {
   margin-inline-end: 0px;
 }
 
+#work h2 {
+  text-align: center;
+  color: #382457;
+  margin-top: 40px;
+}
+
 #about h2 {
   text-align: center;
   color: #382457;
   margin-top: 40px;
-
 }
 
 #story h2 {
@@ -618,6 +625,10 @@ Medium devices (640px and larger)
   display: block;
 }
 
+  #work h2 {
+  text-align: center; /* Centers text */
+}
+
 .col-md-6 {
   width: 50%;
 }
@@ -672,21 +683,60 @@ Large devices (1024px or larger)
     font-size: 18px; /* Sets the font size to 18px */
   }
 
+  h1, h2, h3, h4, h5 {
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 4em;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  h4 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+
   #hero h3 {
     text-align: center; /* Centers text */
+    font-size: 6em;
+    font-weight: 700;
   }
 
   #hero h4 {
     text-align: center; /* Centers text */
+    font-size: 4em;
+    font-weight: 700;
   }
 
   #hero p {
     text-align: center;
+    font-size: 24px;
   }
 
   #hero span {
   display: block;
 }
+
+  #work h2 {
+  text-align: center; /* Centers text */
+  }
 
   .col-lg-7 {
     width: 60%;
@@ -752,6 +802,36 @@ X-large devices (1440px or larger)
     font-size: 18px; /* Sets the font size to 18px */
   }
 
+  h1, h2, h3, h4, h5 {
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 4em;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  h4 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+
   #hero h3 {
     text-align: center; /* Centers text */
   }
@@ -766,6 +846,10 @@ X-large devices (1440px or larger)
 
   #hero span {
   display: block;
+}
+
+  #work h2 {
+  text-align: center; /* Centers text */
 }
 
   .col-lg-7 {
