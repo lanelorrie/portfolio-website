@@ -629,21 +629,12 @@ Medium devices (640px and larger)
 
   #story img {
   width: 50%;
-  padding: 0px 10px;
+  padding: 0px 30px 0px 10px;
   float: left;
 }
 
   #story h2 {
   margin-top: 50px;
-}
-
-.self-img img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  padding-top: 40px;
-  float: left;
 }
 
 }
@@ -712,7 +703,7 @@ Large devices (1024px or larger)
 
   #story img {
   width: 50%;
-  padding: 0px 20px;
+  padding: 0px 30px 0px 10px;
   float: left;
 }
 
@@ -722,19 +713,6 @@ Large devices (1024px or larger)
 
   #story h2 {
     margin-top: 30px;
-}
-
-  #skills h2 {
-  margin-top: 200px;
-}
-
-.self-img img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  padding-top: 40px;
-  float: left;
 }
 
 }
@@ -805,7 +783,7 @@ X-large devices (1440px or larger)
 
   #story img {
   width: 50%;
-  padding: 0px 20px;
+  padding: 0px 30px 0px 10px;
   float: left;
 }
 
@@ -815,19 +793,6 @@ X-large devices (1440px or larger)
 
   #story h2 {
     margin-top: 30px;
-}
-
-  #skills h2 {
-  margin-top: 200px;
-}
-
-.self-img img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  padding-top: 40px;
-  float: left;
 }
 
 }
