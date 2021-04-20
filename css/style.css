@@ -716,19 +716,19 @@ Large devices (1024px or larger)
 
   #hero h3 {
     text-align: center; /* Centers text */
-    font-size: 6em;
+    font-size: 4em;
     font-weight: 700;
   }
 
   #hero h4 {
     text-align: center; /* Centers text */
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 700;
   }
 
   #hero p {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   #hero span {
