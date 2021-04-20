@@ -58,7 +58,7 @@ img {
 }
 
 main {
-  padding-top: 202px;
+  padding-top: 118px;
 }
 
 header {
@@ -602,7 +602,7 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 110px;
+    padding-top: 118px;
   }
 
   body {
@@ -662,13 +662,14 @@ Large devices (1024px or larger)
 
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    height: 64px;
+    padding: 15px 0 15px;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 40px;
+    margin-top: 5px;
   }
 
   .logo {
@@ -676,7 +677,7 @@ Large devices (1024px or larger)
   }
 
   main {
-    padding-top: 110px;
+    padding-top: 65px;
   }
 
   body {
@@ -781,13 +782,14 @@ X-large devices (1440px or larger)
 
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    height: 64px;
+    padding: 15px 0 15px;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 40px;
+    margin-top: 5px;
   }
 
   .logo {
@@ -795,7 +797,7 @@ X-large devices (1440px or larger)
   }
 
   main {
-    padding-top: 110px;
+    padding-top: 65px;
   }
 
   body {
