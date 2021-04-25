@@ -63,7 +63,6 @@ main {
 
 header {
   background: linear-gradient(to right, #e7ffff, #CBFFFF);
-  text-align: center;
   padding: 10px 0;
   overflow: hidden;
   position: fixed;
