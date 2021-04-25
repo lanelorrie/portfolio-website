@@ -76,51 +76,34 @@ header {
 nav {
   display: inline-block;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
 }
 
 nav > ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-weight: 700;
-}
-
-nav > ul > li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 0;
-  font-weight: 700;
 }
 
 nav > ul > li > a {
-  display: inline-block;
   padding: 0 15px;
   text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 700;
-  width: 100%;
 }
 
 nav > ul > li > a:hover {
   padding: 0 15px;
   text-transform: uppercase;
-  font-weight: 700;
   color: #0099dd;
 }
 
 nav > ul > li > a:focus {
   padding: 0 15px;
   text-transform: uppercase;
-  font-weight: 700;
   color: #0099dd;
 }
 
 nav > ul > li > a:active {
   padding: 0 15px;
   text-transform: uppercase;
-  font-weight: 700;
   color: #242323;
 }
 
@@ -598,6 +581,11 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin-top: 40px;
+  }
+
+
+  nav > ul > li {
+    display: inline-block;
   }
 
   .logo {
