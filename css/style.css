@@ -58,14 +58,15 @@ img {
 }
 
 main {
-  padding-top: 118px;
+  padding-top: 75px;
 }
 
 header {
   background: linear-gradient(to right, #e7ffff, #CBFFFF);
-  padding: 10px 0;
+  padding: 20px 0 13px;
   overflow: hidden;
   position: fixed;
+  vertical-align: middle;
   z-index: 2;
   width: 100%;
   -webkit-box-shadow: 2px 3px 4px 0px rgba(101, 120, 120, 0.3);
@@ -73,10 +74,6 @@ header {
   box-shadow:         2px 3px 4px 0px rgba(101, 120, 120, 0.3);
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
 
 nav > ul {
   list-style: none;
@@ -105,6 +102,18 @@ nav > ul > li > a:active {
   padding: 0 15px;
   text-transform: uppercase;
   color: #242323;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
 }
 
 a {
@@ -181,6 +190,10 @@ div > ul > li > a:active {
   font-size: 30px;
   width: 100%;
   text-align: center;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
 }
 
 .button {
@@ -321,7 +334,6 @@ div > ul > li > a:active {
 }
 
 #hero {
-  background-color: #e7ffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -580,20 +592,28 @@ Medium devices (640px and larger)
   nav {
     width: auto;
     float: right;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
+  nav > ul {
+    margin: 1em 0;
+  }
 
   nav > ul > li {
     display: inline-block;
+    position: relative;
   }
 
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+}
+
   .logo {
-    max-width: 90px;
+    max-width: 150px;
   }
 
   main {
-    padding-top: 118px;
+    padding-top: 75px;
   }
 
   body {
@@ -653,7 +673,7 @@ Large devices (1024px or larger)
 
   header {
     text-align: unset;
-    height: 64px;
+    height: 75px;
     padding: 15px 0 15px;
   }
 
@@ -663,12 +683,16 @@ Large devices (1024px or larger)
     margin-top: 5px;
   }
 
+  .navtoggle li:last-child {
+    display: none;
+}
+
   .logo {
-    max-width: 90px;
+    max-width: 150px;
   }
 
   main {
-    padding-top: 65px;
+    padding-top: 75px;
   }
 
   body {
@@ -706,19 +730,19 @@ Large devices (1024px or larger)
   }
 
   #hero h3 {
-    text-align: center; /* Centers text */
+    text-align: left;
     font-size: 4em;
     font-weight: 700;
   }
 
   #hero h4 {
-    text-align: center; /* Centers text */
+    text-align: left;
     font-size: 2em;
     font-weight: 700;
   }
 
   #hero p {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
   }
 
@@ -771,7 +795,7 @@ X-large devices (1440px or larger)
 
   header {
     text-align: unset;
-    height: 64px;
+    height: 75px;
     padding: 15px 0 15px;
   }
 
@@ -781,12 +805,16 @@ X-large devices (1440px or larger)
     margin-top: 5px;
   }
 
+  .navtoggle li:last-child {
+    display: none;
+}
+
   .logo {
-    max-width: 90px;
+    max-width: 150px;
   }
 
   main {
-    padding-top: 65px;
+    padding-top: 75px;
   }
 
   body {
@@ -824,15 +852,15 @@ X-large devices (1440px or larger)
   }
 
   #hero h3 {
-    text-align: center; /* Centers text */
+    text-align: left;
   }
 
   #hero h4 {
-    text-align: center; /* Centers text */
+    text-align: left;
   }
 
   #hero p {
-    text-align: center;
+    text-align: left;
   }
 
   #hero span {
