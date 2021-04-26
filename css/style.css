@@ -422,6 +422,7 @@ div>ul>li>a:active {
   color: #2c2c2c;
   padding: 0;
   display: inline-block;
+  width: 100%;
 }
 
 #peep .container {
