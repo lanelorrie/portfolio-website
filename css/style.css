@@ -124,12 +124,12 @@ nav>ul>li>a:active {
 }
 
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 0 0 0;
 }
 
 .navtoggle.responsive li  {
   display: block;
-  padding: 20px 0;
+  padding: 0;
 }
 
 .navtoggle.responsive li:last-child  {
