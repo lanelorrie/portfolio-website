@@ -59,7 +59,7 @@ img {
 /* HOMEPAGE */
 .logo {
   max-width: 150px;
-  padding: 5px;
+  padding: 15px 0 15px 0;
 }
 
 main {
@@ -575,6 +575,16 @@ li.tools {
   width: 100%;
 }
 
+
+/* ==============================
+Small to Medium devices (640px and smaller)
+================================= */
+@media only screen and (max-width: 640px) {
+  img#optionalstuff {
+  display: none;
+}
+}
+
 /* ==============================
 Medium devices (641px and larger)
 ================================= */
@@ -693,6 +703,7 @@ Large devices (1024px or larger)
   .logo {
     max-width: 150px;
   }
+
 
   body {
     font-size: 18px;
@@ -818,6 +829,7 @@ X-large devices (1440px or larger)
   .logo {
     max-width: 150px;
   }
+
 
   main {
     padding-top: 75px;
