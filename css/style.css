@@ -4,7 +4,6 @@ Primary Color (Purple): #382457;
 Secondary Color (Aquamarine): #2CDDDD;
 Font Color (Dark Black): #242323;
 */
-
 * {
   box-sizing: border-box;
 }
@@ -12,9 +11,12 @@ Font Color (Dark Black): #242323;
 body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
   color: #242323;
 }
 
@@ -39,10 +41,12 @@ h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
+
 h4 {
   font-size: 1.5em;
   font-weight: 400;
 }
+
 h5 {
   font-size: 1.35em;
   font-weight: 400;
@@ -55,6 +59,7 @@ img {
 /* HOMEPAGE */
 .logo {
   max-width: 150px;
+  padding: 5px;
 }
 
 main {
@@ -63,45 +68,47 @@ main {
 
 header {
   background: linear-gradient(to right, #e7ffff, #CBFFFF);
-  padding: 20px 0 13px;
   overflow: hidden;
   position: fixed;
   vertical-align: middle;
   z-index: 2;
   width: 100%;
   -webkit-box-shadow: 2px 3px 4px 0px rgba(101, 120, 120, 0.3);
-  -moz-box-shadow:    2px 3px 4px 0px rgba(101, 120, 120, 0.3);
-  box-shadow:         2px 3px 4px 0px rgba(101, 120, 120, 0.3);
+  -moz-box-shadow: 2px 3px 4px 0px rgba(101, 120, 120, 0.3);
+  box-shadow: 2px 3px 4px 0px rgba(101, 120, 120, 0.3);
 }
 
-
-nav > ul {
+nav>ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
 }
 
-nav > ul > li > a:hover {
-  padding: 0 15px;
-  text-transform: uppercase;
-  color: #0099dd;
-}
-
-nav > ul > li > a:focus {
+nav>ul>li>a:hover {
   padding: 0 15px;
   text-transform: uppercase;
   color: #0099dd;
 }
 
-nav > ul > li > a:active {
+nav>ul>li>a:focus {
+  padding: 0 15px;
+  text-transform: uppercase;
+  color: #0099dd;
+}
+
+nav>ul>li>a:active {
   padding: 0 15px;
   text-transform: uppercase;
   color: #242323;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
 }
 
 .navtoggle, .navtoggle.responsive {
@@ -111,33 +118,37 @@ nav > ul > li > a:active {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 2px;
+  top: 20px;
   font-size: 20px;
   padding-right: 0;
 }
 
 a {
   color: #382457;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
 a:hover {
   color: #0099dd;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
   padding-bottom: 1px;
   font-weight: 700;
 }
 
 a:focus {
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
   padding-bottom: 1px;
   color: #0099dd;
   font-weight: 700;
 }
 
-a:active { /* selected link */
+a:active {
+  /* selected link */
   color: #242323;
   font-weight: 700;
 }
@@ -150,20 +161,19 @@ footer {
   text-align: center;
 }
 
-div > ul {
+div>ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-div > ul > li {
+div>ul>li {
   display: inline-block;
   list-style-type: none;
   padding: 0;
 }
 
-
-div > ul > li > a {
+div>ul>li>a {
   display: inline-block;
   padding: 0 15px;
   font-size: 30px;
@@ -171,29 +181,25 @@ div > ul > li > a {
   text-align: center;
 }
 
-div > ul > li > a:hover {
+div>ul>li>a:hover {
   padding: 0 15px;
   font-size: 30px;
   width: 100%;
   text-align: center;
 }
 
-div > ul > li > a:focus {
+div>ul>li>a:focus {
   padding: 0 15px;
   font-size: 30px;
   width: 100%;
   text-align: center;
 }
 
-div > ul > li > a:active {
+div>ul>li>a:active {
   padding: 0 15px;
   font-size: 30px;
   width: 100%;
   text-align: center;
-}
-
-.navtoggle li:not(:last-child) {
-  display: none;
 }
 
 .button {
@@ -294,13 +300,13 @@ div > ul > li > a:active {
 }
 
 /* Layout styling */
-
 .container {
   padding: 0 15px;
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
 .row::after {
@@ -313,16 +319,20 @@ div > ul > li > a:active {
   float: right;
 }
 
-#work .row { padding-bottom: 25px;}
+#work .row {
+  padding-bottom: 25px;
+}
 
 #hero h3 {
-  text-align: left; /* Centers text */
+  text-align: left;
+  /* Centers text */
   color: #382457;
   font-size: 3em;
 }
 
 #hero h4 {
-  text-align: left; /* Centers text */
+  text-align: left;
+  /* Centers text */
   color: #242323;
   font-size: 1.75em;
 }
@@ -334,7 +344,7 @@ div > ul > li > a:active {
 }
 
 #hero {
-  padding: 20px 0;
+  padding: 30px 0px 0px;
   display: inline-block;
   width: 100%;
 }
@@ -364,20 +374,12 @@ div > ul > li > a:active {
   text-align: center;
   color: #242323;
   display: block;
-  margin-block-start: 0.3em;
-  margin-block-end: 0.3em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 #pachira h4 {
   text-align: left;
   color: #008f7a;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 0.1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 #pachira p {
@@ -393,18 +395,14 @@ div > ul > li > a:active {
   text-align: left;
   color: #2C698D;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 0.1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
-#jot h4 > img {
+#jot h4>img {
   display: inline;
   margin: 0 2vw 0 0;
   max-height: 0.8em;
   max-width: 0.8em;
-    }
+}
 
 #peep {
   background-color: #FACF11;
@@ -431,10 +429,6 @@ div > ul > li > a:active {
   text-align: left;
   color: #161616;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 0.1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 #teascape {
@@ -445,15 +439,15 @@ div > ul > li > a:active {
   width: 100%;
 }
 
-#teascape h4 > img {
+#teascape h4>img {
   display: inline;
   margin: 0 2vw 0 0;
   max-height: 0.8em;
   max-width: 0.8em;
-    }
+}
 
 #teascape h3 {
-  color:#233310;
+  color: #233310;
   text-align: center;
 }
 
@@ -461,20 +455,12 @@ div > ul > li > a:active {
   text-align: left;
   color: #559B00;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 0.1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 #teascape h5 {
   text-align: left;
   color: #242323;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 0.1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 #work h2 {
@@ -501,16 +487,14 @@ div > ul > li > a:active {
 }
 
 .filler {
-   text-align: right;
-   margin-inline-start: 0px;
-   margin-inline-end: 0px;
-   display: block;
-   padding: 0;
-   margin-right: auto;
+  text-align: right;
+  display: block;
+  padding: 0;
+  margin-right: auto;
 }
 
 .nospace {
-   font-size: 0;
+  font-size: 0;
 }
 
 .nomarker {
@@ -543,7 +527,7 @@ table {
   color: #008f7a;
   font-family: "Montserrat", cursive, sans-serif;
   border-collapse: collapse;
-  }
+}
 
 th, td {
   padding: 8px;
@@ -558,17 +542,16 @@ td {
 }
 
 table.center {
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
 li.skills:not(:last-child) {
- margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 li.tools:not(:last-child) {
- margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 li.tools {
@@ -579,34 +562,36 @@ li.tools {
   width: 100%;
 }
 
-
 /* ==============================
-Medium devices (640px and larger)
+Medium devices (641px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 30px;
+    margin-top: 5px;
   }
 
-  nav > ul {
+  nav>ul {
     margin: 1em 0;
   }
 
-  nav > ul > li {
+  nav>ul>li {
     display: inline-block;
     position: relative;
   }
 
   .navtoggle li:not(:last-child) {
     display: inline-block;
-}
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
 
   .logo {
     max-width: 150px;
@@ -617,48 +602,55 @@ Medium devices (640px and larger)
   }
 
   body {
-    font-size: 18px; /* Sets the font size to 18px */
+    font-size: 18px;
+    /* Sets the font size to 18px */
   }
 
   #hero h3 {
-    text-align: center; /* Centers text */
+    text-align: left;
   }
 
   #hero h4 {
-    text-align: center; /* Centers text */
+    text-align: left;
   }
 
   #hero p {
-    text-align: center;
+    text-align: left;
   }
 
   #hero span {
-  display: block;
-}
+    display: block;
+  }
+
+  #hero {
+    padding: 70px 0px 0px;
+    display: inline-block;
+    width: 100%;
+  }
 
   #work h2 {
-  text-align: center; /* Centers text */
-}
+    text-align: center;
+    /* Centers text */
+  }
 
-.col-md-6 {
-  width: 50%;
-}
+  .col-md-6 {
+    width: 50%;
+  }
 
-[class*="col-"] {
-  float: left;
-  padding: 10px;
-}
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
 
   #story img {
-  width: 50%;
-  padding: 0px 30px 0px 10px;
-  float: left;
-}
+    width: 50%;
+    padding: 0px 30px 0px 10px;
+    float: left;
+  }
 
   #story h2 {
-  margin-top: 50px;
-}
-
+    margin-top: 50px;
+  }
 }
 
 /* ==============================
@@ -673,8 +665,6 @@ Large devices (1024px or larger)
 
   header {
     text-align: unset;
-    height: 75px;
-    padding: 15px 0 15px;
   }
 
   nav {
@@ -685,18 +675,15 @@ Large devices (1024px or larger)
 
   .navtoggle li:last-child {
     display: none;
-}
+  }
 
   .logo {
     max-width: 150px;
   }
 
-  main {
-    padding-top: 75px;
-  }
-
   body {
-    font-size: 18px; /* Sets the font size to 18px */
+    font-size: 18px;
+    /* Sets the font size to 18px */
   }
 
   h1, h2, h3, h4, h5 {
@@ -720,10 +707,12 @@ Large devices (1024px or larger)
     font-size: 2.5em;
     font-weight: 400;
   }
+
   h4 {
     font-size: 2em;
     font-weight: 400;
   }
+
   h5 {
     font-size: 1.5em;
     font-weight: 400;
@@ -747,11 +736,18 @@ Large devices (1024px or larger)
   }
 
   #hero span {
-  display: block;
-}
+    display: block;
+  }
+
+  #hero {
+    padding: 100px 0px 0px;
+    display: inline-block;
+    width: 100%;
+  }
 
   #work h2 {
-  text-align: center; /* Centers text */
+    text-align: center;
+    /* Centers text */
   }
 
   .col-lg-7 {
@@ -768,19 +764,18 @@ Large devices (1024px or larger)
   }
 
   #story img {
-  width: 50%;
-  padding: 0px 30px 0px 10px;
-  float: left;
-}
+    width: 50%;
+    padding: 0px 30px 0px 10px;
+    float: left;
+  }
 
   #story h2 {
     margin-top: 0px;
-}
+  }
 
   #story h2 {
     margin-top: 30px;
-}
-
+  }
 }
 
 /* ==============================
@@ -795,8 +790,6 @@ X-large devices (1440px or larger)
 
   header {
     text-align: unset;
-    height: 75px;
-    padding: 15px 0 15px;
   }
 
   nav {
@@ -807,7 +800,7 @@ X-large devices (1440px or larger)
 
   .navtoggle li:last-child {
     display: none;
-}
+  }
 
   .logo {
     max-width: 150px;
@@ -818,7 +811,8 @@ X-large devices (1440px or larger)
   }
 
   body {
-    font-size: 18px; /* Sets the font size to 18px */
+    font-size: 18px;
+    /* Sets the font size to 18px */
   }
 
   h1, h2, h3, h4, h5 {
@@ -842,10 +836,12 @@ X-large devices (1440px or larger)
     font-size: 2.5em;
     font-weight: 400;
   }
+
   h4 {
     font-size: 2em;
     font-weight: 400;
   }
+
   h5 {
     font-size: 1.5em;
     font-weight: 400;
@@ -864,12 +860,19 @@ X-large devices (1440px or larger)
   }
 
   #hero span {
-  display: block;
-}
+    display: block;
+  }
 
   #work h2 {
-  text-align: center; /* Centers text */
-}
+    text-align: center;
+    /* Centers text */
+  }
+
+  #hero {
+    padding: 100px 0px 0px;
+    display: inline-block;
+    width: 100%;
+  }
 
   .col-lg-7 {
     width: 60%;
@@ -885,17 +888,16 @@ X-large devices (1440px or larger)
   }
 
   #story img {
-  width: 50%;
-  padding: 0px 30px 0px 10px;
-  float: left;
-}
+    width: 50%;
+    padding: 0px 30px 0px 10px;
+    float: left;
+  }
 
   #story h2 {
     margin-top: 0px;
-}
+  }
 
   #story h2 {
     margin-top: 30px;
-}
-
+  }
 }
