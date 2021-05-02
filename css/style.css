@@ -532,7 +532,6 @@ dt {
 dd {
   display: list-item;
   list-style-type: circle;
-  padding-inline-start: 1ch;
 }
 
 table {
